@@ -3,6 +3,14 @@
 
 [[Paper]](https://arxiv.org/abs/2307.07829) [[Datasets]](https://pan.baidu.com/s/1zmHwsxMWo_QoW9PnhKcNqA?pwd=h8mw) [[Models]](https://drive.google.com/drive/folders/1DOI9HK4ZgDBBpLp_TLaS2Zywln6X_5hA)
 
+
+#### Datasets
+> *We employ three datasets, i.e., the CCM dataset, the Fundus dataset, and the Colonoscopy dataset, to evaluate enhancement performance under complex degeneration conditions. CCM dataset is publicly available, while Fundus and Colonoscopy datasets are the private datasets collected and relabeled by our collaborative clinicians into HQ and LQ subsets from the iSee dataset and the CVCEndoSceneStill dataset. Details of the three datasets are presented in Table I. Note that CCM and Colonoscopy contain paired segmentation labels for the HQ and LQ images, which enables us to quantitatively evaluate the enhancement quality by taking segmentation as the downstream task and retrain our framework with the proposed cooperative training strategy for a BLO.*
+
+> <p align="center">
+> <img src="data_table.png">
+> </p>
+
 #### Authors
 [Chunming He](https://chunminghe.github.io/), [Kai Li*](http://kailigo.github.io/), Guoxia Xu, Longxiang Tang, [Jiangpeng Yan](https://yjump.github.io/), [Yulun Zhang](https://yulunzhang.com/), [Xiu Li*](https://scholar.google.com/citations?user=Xrh1OIUAAAAJ&hl=en), Yaowei Wang
 
