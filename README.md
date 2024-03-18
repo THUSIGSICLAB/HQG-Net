@@ -5,7 +5,7 @@
 
 
 #### Datasets
-> *We employ three datasets, i.e., the CCM dataset, the Fundus dataset, and the Colonoscopy dataset, to evaluate enhancement performance under complex degeneration conditions. CCM dataset is publicly available, while Fundus and Colonoscopy datasets are the private datasets(including 1384 images) collected and relabeled by our collaborative clinicians into HQ and LQ subsets from the iSee dataset and the CVCEndoSceneStill dataset. Details of the three datasets are presented in Table I. Note that CCM and Colonoscopy contain paired segmentation labels for the HQ and LQ images, which enables us to quantitatively evaluate the enhancement quality by taking segmentation as the downstream task and retrain our framework with the proposed cooperative training strategy for a BLO.*
+> *We employ three datasets, i.e., the CCM dataset, the Fundus dataset, and the Colonoscopy dataset, to evaluate enhancement performance under complex degeneration conditions. CCM dataset is publicly available, while Fundus and Colonoscopy datasets are the private datasets collected and relabeled by our collaborative clinicians into HQ and LQ subsets from the iSee dataset and the CVCEndoSceneStill dataset, Fundus dataset is used for training the compared networks with 640 HQ images and 700 LQ images. Details of the three datasets are presented in Table I. Note that CCM and Colonoscopy contain paired segmentation labels for the HQ and LQ images, which enables us to quantitatively evaluate the enhancement quality by taking segmentation as the downstream task and retrain our framework with the proposed cooperative training strategy for a BLO.*
 
 >Index Terms: Bi-level optimization(BLO), High-quality(HQ), Low-quality(LQ)
 
